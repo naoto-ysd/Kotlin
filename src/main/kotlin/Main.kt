@@ -1,5 +1,5 @@
-fun main(args: Array<String>) {
-    println("What is your name?")
-    var name = readln()
-    println("Hello, $name")
+fun main() {
+    val unreadCount = 5
+    val readCount = 100
+    println("You have ${unreadCount + readCount} total messages in your inbox.")
 }
