@@ -1,8 +1,6 @@
 fun main() {
-    val unreadCount:Int = 5
-    println(birthdayGreeting(unreadCount))
-}
-
-fun birthdayGreeting(x: Int): String {
-    return "AAA/nBBB"
+    val numberOfAdults = 20
+    val numberOfKids = 30
+    val total = numberOfAdults + numberOfKids
+    println("The total party size is: $total")
 }
