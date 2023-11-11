@@ -1,5 +1,8 @@
 fun main() {
-    val unreadCount = 5
-    val readCount = 100
-    println("You have ${unreadCount + readCount} total messages in your inbox.")
+    val unreadCount:Int = 5
+    println(birthdayGreeting(unreadCount))
+}
+
+fun birthdayGreeting(x: Int): String {
+    return "AAA/nBBB"
 }
